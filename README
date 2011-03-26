@@ -1,0 +1,25 @@
+This UIColor Extension will allow you to create UIColor instances using Hex CSS color strings.
+
+Examples:
+---
+label.textColor = [UIColor colorWithHexString:@"ff0000"]; // red color
+label.textColor = [UIColor colorWithHexString:@"0f0"]; // green color
+label.textColor = [UIColor colorWithHexString:@"#fc0"]; // fire hydrant yellow color
+
+If you want to control the alpha:
+label.textColor = [UIColor colorWithHexString:@"ff0000" withHexAlpha:@"f8"]; // red color with some alpha 
+
+
+Author: 
+---
+Amanuel Tewolde / TickleSpace - www.ticklespace.com
+
+License: 
+---
+MIT
+
+Other Similar Projects:
+---
+Inspired by Jonas Schnelli's Implementation at 
+https://github.com/jonasschnelli/UIColor-i7HexColor
+
