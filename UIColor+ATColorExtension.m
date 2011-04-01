@@ -43,7 +43,7 @@
 
 + (UIColor *)colorWithHexString:(NSString *)hexString 
 {
-	[self colorWithHexString:hexString withHexAlpha:@"ff"];
+	return [self colorWithHexString:hexString withHexAlpha:@"ff"];
 }
 
 @end
